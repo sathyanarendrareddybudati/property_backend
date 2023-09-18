@@ -1,0 +1,13 @@
+2023-09-18 09:27:58,706 djongo.base  DEBUG    New Database connection
+2023-09-18 09:27:58,706 djongo.sql2mongo.query DEBUG    sql_command: SELECT "schedules_taskrecord"."id", "schedules_taskrecord"."start_time", "schedules_taskrecord"."end_time", "schedules_taskrecord"."records_scraped", "schedules_taskrecord"."status", "schedules_taskrecord"."schedule", "schedules_taskrecord"."enabled" FROM "schedules_taskrecord" WHERE "schedules_taskrecord"."id" = %(0)s LIMIT 21
+params: (1,)
+2023-09-18 09:27:58,711 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'id': {'$eq': 1}}, 'projection': ['id', 'start_time', 'end_time', 'records_scraped', 'status', 'schedule', 'enabled'], 'limit': 21}
+2023-09-18 09:27:58,716 djongo.sql2mongo.query DEBUG    Result: (1, datetime.datetime(2023, 9, 18, 4, 40, 54, 656000), datetime.datetime(2023, 9, 18, 4, 40, 54), 25, 'completed', 'script', True)
+2023-09-18 09:27:58,723 djongo.base  DEBUG    MongoClient connection closed
+2023-09-18 09:27:58,935 djongo.base  DEBUG    Existing MongoClient connection closed
+2023-09-18 09:27:58,935 djongo.base  DEBUG    New Database connection
+2023-09-18 09:27:58,935 djongo.sql2mongo.query DEBUG    sql_command: SELECT "schedules_taskrecord"."id", "schedules_taskrecord"."start_time", "schedules_taskrecord"."end_time", "schedules_taskrecord"."records_scraped", "schedules_taskrecord"."status", "schedules_taskrecord"."schedule", "schedules_taskrecord"."enabled" FROM "schedules_taskrecord" WHERE "schedules_taskrecord"."id" = %(0)s LIMIT 21
+params: (1,)
+2023-09-18 09:27:58,939 djongo.sql2mongo.query DEBUG    Find query: {'filter': {'id': {'$eq': 1}}, 'projection': ['id', 'start_time', 'end_time', 'records_scraped', 'status', 'schedule', 'enabled'], 'limit': 21}
+2023-09-18 09:27:59,226 djongo.sql2mongo.query DEBUG    Result: (1, datetime.datetime(2023, 9, 18, 4, 40, 54, 656000), datetime.datetime(2023, 9, 18, 4, 40, 54), 25, 'completed', 'script', True)
+2023-09-18 09:27:59,234 djongo.base  DEBUG    MongoClient connection closed
